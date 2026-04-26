@@ -1,5 +1,22 @@
 # DFIR Platform - Cortex Analyzers
 
+> ## Documentation
+>
+> All documentation for `dfir-cortex-analyzers` lives in the central documentation hub at `../dfir-docs/dfir-cortex-analyzers/`.
+>
+> - **Memory bank** (Cline pattern): [`../dfir-docs/dfir-cortex-analyzers/memory-bank/`](../dfir-docs/dfir-cortex-analyzers/memory-bank/)
+>   - [`brief.md`](../dfir-docs/dfir-cortex-analyzers/memory-bank/brief.md) — foundation, scope, success criteria
+>   - [`technical.md`](../dfir-docs/dfir-cortex-analyzers/memory-bank/technical.md) — architecture, stack, patterns
+>   - [`status.md`](../dfir-docs/dfir-cortex-analyzers/memory-bank/status.md) — current state, recent changes, known issues
+> - **Suite architecture:** [`../dfir-docs/ARCHITECTURE.md`](../dfir-docs/ARCHITECTURE.md)
+> - **Suite roadmap:** [`../dfir-docs/ROADMAP.md`](../dfir-docs/ROADMAP.md)
+> - **Decisions (ADRs):** [`../dfir-docs/decisions/`](../dfir-docs/decisions/)
+> - **Operations runbook:** [`../dfir-docs/operations/`](../dfir-docs/operations/)
+>
+> Convention: all DFIR suite documentation lives in `dfir-docs/`, never inside individual project repos. Updates to architecture should be reflected in the corresponding memory bank files.
+
+---
+
 Cortex analyzers for the [DFIR Platform](https://platform.dfir-lab.ch) API by [DFIR Lab](https://dfir-lab.ch). These analyzers integrate DFIR Platform's threat intelligence and analysis capabilities directly into [TheHive](https://thehive-project.org/) and [Cortex](https://github.com/TheHive-Project/Cortex).
 
 ## Analyzers
